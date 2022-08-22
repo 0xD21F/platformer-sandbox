@@ -1,5 +1,5 @@
 [package]
-name = "drif-platformer-sandbox"
+name = "platformer_sandbox"
 version = "0.1.0"
 edition = "2021"
 
@@ -25,3 +25,7 @@ serde = "1.0.136"
 serde_json = "1.0.79"
 
 [features]
+
+# Enable max optimizations for dependencies, but not for our code:
+[profile.dev.package."*"]
+opt-level = 3

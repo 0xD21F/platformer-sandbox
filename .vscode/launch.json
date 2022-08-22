@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/platformer_sandbox.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [
+                { 
+                    "name": "CARGO_MANIFEST_DIR", 
+                    "value": "${workspaceFolder}"
+                },
+            ],
+            "externalConsole": true
+        },
+    ]
+}

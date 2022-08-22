@@ -1496,24 +1496,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650"
 
 [[package]]
-name = "drif-platformer-sandbox"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy-inspector-egui",
- "bevy_asset_loader",
- "bevy_ecs_ldtk",
- "bevy_ecs_tilemap",
- "bevy_rapier2d",
- "iyes_loopless",
- "iyes_progress",
- "ldtk_rust",
- "leafwing-input-manager",
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "egui"
 version = "0.18.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2957,6 +2939,24 @@ name = "pkg-config"
 version = "0.3.25"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1df8c4ec4b0627e53bdf214615ad287367e482558cf84b109250b37464dc03ae"
+
+[[package]]
+name = "platformer_sandbox"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy-inspector-egui",
+ "bevy_asset_loader",
+ "bevy_ecs_ldtk",
+ "bevy_ecs_tilemap",
+ "bevy_rapier2d",
+ "iyes_loopless",
+ "iyes_progress",
+ "ldtk_rust",
+ "leafwing-input-manager",
+ "serde",
+ "serde_json",
+]
 
 [[package]]
 name = "png"
